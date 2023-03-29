@@ -1,2 +1,11 @@
 # MykolaGPT
-Mykola GPT is a home assistant to whom you can tell about your problems and he will help you solve them. This bot can do all the same things as ChatGPT 3.5 but it understands you when you speak and has a voice
+
+MykolaGPT - це домашній помічник-асистент, який вміє все те саме, що і ChatGPT 3.5. Ви можете питати у ньоого усе, на що є відповідь, і він допоможе вам у розв'язку любої задачі.
+
+Роспізнавання голосу реалізоване на базі VOSK API, у репозиторії вже є доволі велика українська модель.
+Text-To-Speech реалізовано за допомогою бібліотеки Silero у зв'язці з Torch.
+
+У найближчий час я реалізую requirements.txt і Миколу зможе спробувати кожен.
+
+Як ним користуватися інтуїтивно зрозуміло:
+Після повної ініціалізації асистента просто говоріть у мікрофон те, що у вас турбує і у найближчі 5 секунд він відповість вам.
